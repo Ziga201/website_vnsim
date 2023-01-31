@@ -1,0 +1,117 @@
+:root{
+    --height: 62px;
+}
+
+
+
+
+
+
+.header{
+    height: var(--height);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-wrap{
+    padding: 0 80px;
+}
+
+
+.navbar__support{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.navbar__support-logo{
+
+}
+
+.navbar__support-logo-img{
+    max-height: 80px;
+    width: 100%;
+}
+
+.navbar__support-search{
+    margin-left: 50px;
+    position: relative;
+    width: 100%;
+
+}
+
+.navbar__support-search-input{
+    border-radius: 20px;
+    border: 1px #000 solid;
+    padding: 5px 10px;
+    width: 100%;
+
+}
+
+.navbar__support-search-icon{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.navbar__select{
+    display: flex;
+}
+
+.navbar__select-list{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__select-item{
+    padding: 6px 15px;
+    margin: 0 5px;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: all ease-in .2s;
+    color: #a2baf0;
+}
+
+.navbar__select-item:hover{
+    color: #a2baf0;
+    cursor: pointer;
+    background-color: #0f4dad;
+}
+
+.navbar__select-account{
+    display: flex;
+}
+
+.navbar__select-account-login{
+    margin: 0 8px;
+    display: block;
+}
+
+.navbar__select-account-login-link{
+    
+}
+
+.navbar__select-account-login-link:hover{
+   
+
+}
+
+.navbar__select-account-register{
+    margin: 0 8px;
+    
+}
+
+.navbar__select-account-register-link{
+
+}
+@media (max-width: 1199.98px) { 
+    .navbar__select-list{
+        display: none;
+    }
+}

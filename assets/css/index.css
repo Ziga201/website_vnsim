@@ -1,0 +1,72 @@
+
+.banner{
+    background: url(https://www.kiotviet.vn/wp-content/themes/kiotviet/images/new-design/banner2.jpg) top center/cover;
+    height: calc(100vh - var(--height));
+    position: relative;
+    /* background-size: cover; */
+}
+
+.banner__text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner__text-heading{
+    color: #F3564A;
+    font-weight: 700;
+    max-width: 700px;
+    font-size: 60px;
+}
+
+.banner__text-select{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__text-select-desc{
+    color: #fff;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.banner__text-select-btn{
+    margin-top: 10px;
+    
+}
+
+.banner__text-select-btn-link{
+    color: #fff !important;
+    background-color: #F3564A !important;
+}
+
+.banner__text-select-btn-link:hover{
+    color: #fff !important;
+    background-color: #c4463d !important;
+}
+
+.support__heading{
+    font-weight: 600;
+}
+
+.support__list{
+}
+
+.support__item{
+    
+}
+
+.support__item-title{
+
+}
+
+.support__item-icon{
+    
+}
+.support__item-icon img{
+    max-width: 40px;
+}
+
+.support__item-desc{
+
+}

@@ -1,0 +1,72 @@
+ul{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Inter';
+    color: #002146;
+    font-size: 15px;
+}
+
+
+.btn{
+    background-color: #0f4dad;
+    transition: ease-in 0.2s all;
+    color: #c8d5f3;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #165fcc;
+    /* color: #bd4239; */
+    color: rgb(246, 238, 238);
+
+}
+
+.color-linear{
+    display: inline-block;
+    background-image: linear-gradient(to right,#db7979 0%,#d85454 10%,#ec0909 50%);
+    background-size: 200%;
+    transition: all linear 0.5s;
+
+}
+
+.color-linear:hover{
+    background-position: right;
+    background-image: linear-gradient(to left,#db7979 0%,#d85454 10%,#ec0909 50%);
+
+    cursor: pointer;
+    box-shadow: 15px 8px 50px rgb(255, 255, 255, 0.3);
+}
+
+
+.bg-color-outside{
+    /* background-color: #020b96; */
+}
+
+.bg-color-inside{
+    background-color: #7ba4e5;
+}
+
+.bg-color-white{
+    background-color: white;
+}
+.bg-color-tag{
+    /* background-color: ; */
+}
+
+.bg-color-item{
+    background-image: linear-gradient(to top,#09337d, #034ce8);
+}
+
+.bg-header{
+    background-color: #061f52;
+
+}
