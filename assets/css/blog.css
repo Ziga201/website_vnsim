@@ -310,7 +310,7 @@ font-size: 16px;
 
 .news{
     margin-top: 10px;
-    background: url(/assets/img/blog_new.jpg) center / cover;
+    background: url(../img/blog_new.jpg) center / cover;
     border-radius: 4px;
     position: relative;
     border-radius: 20px;
